@@ -12,7 +12,7 @@ if g:webdevicons_enable_nerdtree == 1
    if !exists('g:NERDTreePathNotifier')
       let g:webdevicons_enable_nerdtree = 0
       echohl WarningMsg |
-      \ echomsg "vim-webdevicons requires a newer version of NERDTree to show glyphs in NERDTree - consider updating NERDTree"
+      \ echo msg "vim-webdevicons requires a newer version of NERDTree to show glyphs in NERDTree - consider updating NERDTree"
    endif
 endif
 
